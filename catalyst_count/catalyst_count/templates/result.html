@@ -1,0 +1,14 @@
+{% extends 'base_generic.html' %}
+
+{% block content %}
+  <h2>Filter Data</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Filter</button>
+  </form>
+  
+  {% if count is not None %}
+    <h3>Filtered Record Count: {{ count }}</h3>
+  {% endif %}
+{% endblock %}
