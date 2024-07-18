@@ -32,7 +32,7 @@ Administrative functionalities for user management.
 ## Installation
 Clone the repository:
 
-`git clone https://github.com/yourusername/django-python-catalyst.git
+`git clone https://github.com/deepshikha987/django-python-catalyst.git
 cd django-python-catalyst`
 
 Set up the database:
